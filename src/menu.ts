@@ -13,13 +13,19 @@ import Havaiano from "./assets/database/havaiano.svg";
 import Arabe from "./assets/database/arabe.svg";
 import Irlandes from "./assets/database/irlandes.svg";
 
+function gerarNumeroAleatorio(): number {
+  const numeroAleatorio: number = Math.random() * (15 - 5) + 5;
+  const numeroArredondado: number = parseFloat(numeroAleatorio.toFixed(1));
+  return numeroArredondado;
+}
+
 const menuList = [
   {
     id: 1,
     name: "Expresso Tradicional",
     tags: ["tradicional"],
     description: "O tradicional café feito com água quente e grãos moídos",
-    price: 9.9,
+    price: gerarNumeroAleatorio(),
     imageUrl: Expresso,
   },
   {
@@ -27,7 +33,7 @@ const menuList = [
     name: "Expresso Americano",
     tags: ["tradicional"],
     description: "Expresso diluído, menos intenso que o tradicional",
-    price: 9.9,
+    price: gerarNumeroAleatorio(),
     imageUrl: ExpressoAmericano,
   },
   {
@@ -35,7 +41,7 @@ const menuList = [
     name: "Expresso Cremoso",
     tags: ["tradicional"],
     description: "Café expresso tradicional com espuma cremosa",
-    price: 9.9,
+    price: gerarNumeroAleatorio(),
     imageUrl: ExpressoCremoso,
   },
   {
@@ -43,7 +49,7 @@ const menuList = [
     name: "Expresso Gelado",
     tags: ["tradicional", "gelado"],
     description: "Bebida preparada com café expresso e cubos de gelo",
-    price: 9.9,
+    price: gerarNumeroAleatorio(),
     imageUrl: ExpressoGelado,
   },
   {
@@ -51,7 +57,7 @@ const menuList = [
     name: "Café com Leite",
     tags: ["tradicional", "com leite"],
     description: "Meio a meio de expresso tradicional com leite vaporizado",
-    price: 9.9,
+    price: gerarNumeroAleatorio(),
     imageUrl: CafeComLeite,
   },
   {
@@ -60,7 +66,7 @@ const menuList = [
     tags: ["tradicional", "com leite"],
     description:
       "Uma dose de café expresso com o dobro de leite e espuma cremosa",
-    price: 9.9,
+    price: gerarNumeroAleatorio(),
     imageUrl: Latte,
   },
   {
@@ -69,7 +75,7 @@ const menuList = [
     tags: ["tradicional", "com leite"],
     description:
       "Bebida com canela feita de doses iguais de café, leite e espuma",
-    price: 9.9,
+    price: gerarNumeroAleatorio(),
     imageUrl: Capuccino,
   },
   {
@@ -78,7 +84,7 @@ const menuList = [
     tags: ["tradicional", "com leite"],
     description:
       "Café expresso misturado com um pouco de leite quente e espuma",
-    price: 9.9,
+    price: gerarNumeroAleatorio(),
     imageUrl: Macchiato,
   },
   {
@@ -86,7 +92,7 @@ const menuList = [
     name: "Mochacchino",
     tags: ["tradicional", "com leite"],
     description: "Café expresso com calda de chocolate, pouco leite e espuma",
-    price: 9.9,
+    price: gerarNumeroAleatorio(),
     imageUrl: Mochacchino,
   },
   {
@@ -94,7 +100,7 @@ const menuList = [
     name: "Chocolate Quente",
     tags: ["tradicional", "com leite"],
     description: "Bebida feita com chocolate dissolvido no leite quente e café",
-    price: 9.9,
+    price: gerarNumeroAleatorio(),
     imageUrl: ChocolateQuente,
   },
   {
@@ -103,7 +109,7 @@ const menuList = [
     tags: ["especial", "alcoólico", "gelado"],
     description:
       "Drink gelado de café expresso com rum, creme de leite e hortelã",
-    price: 9.9,
+    price: gerarNumeroAleatorio(),
     imageUrl: Cubano,
   },
   {
@@ -111,7 +117,7 @@ const menuList = [
     name: "Havaiano",
     tags: ["especial"],
     description: "Bebida adocicada preparada com café e leite de coco",
-    price: 9.9,
+    price: gerarNumeroAleatorio(),
     imageUrl: Havaiano,
   },
   {
@@ -119,7 +125,7 @@ const menuList = [
     name: "Árabe",
     tags: ["especial"],
     description: "Bebida preparada com grãos de café árabe e especiarias",
-    price: 9.9,
+    price: gerarNumeroAleatorio(),
     imageUrl: Arabe,
   },
   {
@@ -127,7 +133,7 @@ const menuList = [
     name: "Irlandês",
     tags: ["especial", "alcoólico"],
     description: "Bebida a base de café, uísque irlandês, açúcar e chantilly",
-    price: 9.9,
+    price: gerarNumeroAleatorio(),
     imageUrl: Irlandes,
   },
 ];

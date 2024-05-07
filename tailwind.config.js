@@ -20,6 +20,8 @@ export default {
         'subtitle': '#403937',
         'title': '#272221',
 
+        'title-dark': '#E0E0E0',
+
         'yellow-normal': '#DBAC2C',
         'yellow-light': '#F1E9C9',
         'yellow-dark': '#C47F17',
@@ -37,6 +39,6 @@ export default {
       backgroundOpacity: ['active'],
     },
   },
-  plugins: [],
+  plugins: []
 }
 

@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
-import { Intro } from "../../components/Intro";
-import { CoffeList } from "../../components/coffee-list/CoffeeList";
+import { Intro } from "./components/Intro";
+import { CoffeList } from "./components/coffee-list/CoffeeList";
 
 export const Home = () => {
   return (

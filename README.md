@@ -1,20 +1,44 @@
-# React + Tailwind + TypeScript - Coffee Delivery
+<strong style="text-align: center; display: block; font-size: 36px">Coffee Delivery ☕🛵</strong>
 
-```js
-interface AppProps {
-  status: string;
-}
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-executando-o-projeto">Executando o projeto</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-export function App ({status = 'Building... 🚧👷‍♂️'}: AppProps) {
-  return (
-    <div>
-      <span>{status}</span>
-    </div>
-  )
-}
-```
+<br>
 
-## Funcionalidades
+<p align="center">
+  <a href="https://coffee-delivery-seven-wheat.vercel.app/" target="_blank">Clique aqui</a> para acessar a versão web
+</p>
+
+## 🖥️ Projeto
+
+Projeto solicitado como desafio para finalização do segundo módulo da Trilha de React 2022. É uma aplicação de delivery de cafés, onde você poderá selecionar os produtos que deseja comprar, poderá gerenciar os itens do carrinho (adicionando ou removendo um por um), adicionar um endereço de entrega, dentre outras coisas que estão descritas na parte de <a href="#-features">features</a>.
+
+## 📲 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias/bibliotecas:
+
+<table border="0">
+ <tr>
+<td> JavaScript</td>
+<td> React.JS</td>
+<td> Vite</td>
+<td> Typescript</td>
+<td> React Hook Form</td>
+ </tr>
+ <tr>
+<td> React Router Dom</td>
+<td> React Hot Toast</td>
+<td> Zod</td>
+<td> React Helmet Async</td>
+<td> Tailwind CSS</td>
+</tr>
+
+</table>
+
+## 🌟 Features
 
 ### Geral
 - [ ] Dark mode (Feature futura)
@@ -37,3 +61,12 @@ export function App ({status = 'Building... 🚧👷‍♂️'}: AppProps) {
 - [x] Exibir previsão de entrega no card
 - [x] Exibir pagamento selecionado no card
 
+## 👨🏻‍💻 Executando o projeto
+
+- 1º - clone o repositório para seu computador;
+- 2º - no local clonado, abra o terminal e execute **npm install** para instalar as dependências do projeto;
+- 3º - abra o projeto com o comando 'code .'
+
+## 💻 Acessando a versão web
+
+Para acessar a versão web basta executar o comando **npm run dev** dentro da raiz do projeto e abrir seu navegador em http://localhost:5173/

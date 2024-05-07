@@ -17,7 +17,7 @@ export function App ({status = 'Building... 🚧👷‍♂️'}: AppProps) {
 ## Funcionalidades
 
 ### Geral
-- [] Dark mode (Feature futura)
+- [ ] Dark mode (Feature futura)
 - [x] Mobile-first
 
 ### Tela principal (Home)

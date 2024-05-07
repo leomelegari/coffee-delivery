@@ -1,4 +1,5 @@
-<strong style="text-align: center; display: block; font-size: 36px">Coffee Delivery ☕🛵</strong>
+
+## <p align="center" fontSize="86px">Coffee Delivery ☕🛵</p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
